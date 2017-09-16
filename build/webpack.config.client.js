@@ -31,7 +31,6 @@ if (env.isProd) plugins.push(new webpack.optimize.UglifyJsPlugin());
 
 export default merge(base, {
   entry: {
-    bundle: ['./client/entry-client'],
     lib: config.lib,
   },
 

@@ -27,3 +27,4 @@ export default merge(clientConfig, {
     new webpack.HotModuleReplacementPlugin(),
   ],
 });
+

@@ -21,7 +21,6 @@ function getExternals() {
 }
 
 export default merge(base, {
-  entry: './client/entry-ssr',
   target: 'node',
 
   externals: getExternals(),
